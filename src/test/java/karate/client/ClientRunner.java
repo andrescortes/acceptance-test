@@ -6,6 +6,6 @@ public class ClientRunner {
 
     @Karate.Test
     Karate client() {
-        return Karate.run("client").relativeTo(getClass());
+        return Karate.run("register").relativeTo(getClass());
     }
 }

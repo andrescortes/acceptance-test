@@ -19,3 +19,4 @@ Feature: This test suite runs over the client operations
         When method post
         Then status 200
         And match response contains '88JJ'
+
